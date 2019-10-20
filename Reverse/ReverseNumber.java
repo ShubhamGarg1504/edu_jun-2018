@@ -6,6 +6,8 @@ public class ReverseNumber {
             reversed = reversed * 10 + digit;
             num /= 10;
         }
+
         System.out.println("Reversed Number is right: " + reversed);
+
     }
 }
